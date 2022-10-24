@@ -47,6 +47,81 @@ const App = () => {
                 changeResult(num * 16.88);
             }
         }
+        else if (uno === "EUR") {
+            if (dos === "MXN") {
+                changeResult(num * 19.68);
+            } else if (dos === "USD") {
+                changeResult(num * 0.99);
+            } else if (dos === "EUR") {
+                changeResult(num);
+            } else if (dos === "BTC") {
+                changeResult(num * 0.000051);
+            } else if (dos === "ETH") {
+                changeResult(num * 0.00073);
+            } else if (dos === "DOGE") {
+                changeResult(num * 16.66);
+            }
+        }
+        else if (uno === "EUR") {
+            if (dos === "MXN") {
+                changeResult(num * 19.68);
+            } else if (dos === "USD") {
+                changeResult(num * 0.99);
+            } else if (dos === "EUR") {
+                changeResult(num);
+            } else if (dos === "BTC") {
+                changeResult(num * 0.000051);
+            } else if (dos === "ETH") {
+                changeResult(num * 0.00073);
+            } else if (dos === "DOGE") {
+                changeResult(num * 16.66);
+            }
+        }
+        else if (uno === "BTC") {
+            if (dos === "MXN") {
+                changeResult(num * 386070.87);
+            } else if (dos === "USD") {
+                changeResult(num * 19371.10);
+            } else if (dos === "EUR") {
+                changeResult(num * 19615.27);
+            } else if (dos === "BTC") {
+                changeResult(num);
+            } else if (dos === "ETH") {
+                changeResult(num * 14.40);
+            } else if (dos === "DOGE") {
+                changeResult(num * 326760.24);
+            }
+        }
+        else if (uno === "ETH") {
+            if (dos === "MXN") {
+                changeResult(num * 28818.90);
+            } else if (dos === "USD") {
+                changeResult(num * 1344.04);
+            } else if (dos === "EUR") {
+                changeResult(num * 1361.02);
+            } else if (dos === "BTC") {
+                changeResult(num * 0.070);
+            } else if (dos === "ETH") {
+                changeResult(num);
+            } else if (dos === "DOGE") {
+                changeResult(num * 22671.86);
+            }
+        }
+        else if (uno === "DOGE") {
+            if (dos === "MXN") {
+                changeResult(num * 1.8);
+            } else if (dos === "USD") {
+                changeResult(num * 0.059);
+            } else if (dos === "EUR") {
+                changeResult(num * 0.06);
+            } else if (dos === "BTC") {
+                changeResult(num * 0.0000031);
+            } else if (dos === "ETH") {
+                changeResult(num * 0.000044);
+            } else if (dos === "DOGE") {
+                changeResult(num);
+            }
+        }
     });
 
     return (
